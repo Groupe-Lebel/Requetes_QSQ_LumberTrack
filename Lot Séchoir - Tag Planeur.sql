@@ -25,4 +25,4 @@ FROM tag_use
 
 WHERE csm_tag.rwoNum = ^rwoNum^
                and udf_fields.udfinteger04 > 0
-ORDER BY tag_use.tagNum
+ORDER BY [TAG]
